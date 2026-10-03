@@ -1,0 +1,20 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>Form</title>
+<style>td{padding:3px;font-family:Tahoma;font-size:14px} fieldset{width:560px}</style></head><body>
+<form method="post" action="bai8_config.php">
+<fieldset><legend><b>Enter Your Information</b></legend>
+<table>
+<tr><td>Fullname</td><td><input type="text" name="fullname" size="30"></td></tr>
+<tr><td>Address</td><td><input type="text" name="address" size="30"></td></tr>
+<tr><td>Phone</td><td><input type="text" name="phone" size="30"></td></tr>
+<tr><td>Gender</td><td><input type="radio" name="gender" value="Nam" checked> Nam
+ <input type="radio" name="gender" value="Nữ"> Nữ</td></tr>
+<tr><td>Country</td><td><select name="country">
+ <option>Việt Nam</option><option>Lào</option><option>Campuchia</option><option>Thái Lan</option><option>Khác</option></select></td></tr>
+<tr><td>Study</td><td>
+ <label><input type="checkbox" name="study[]" value="PHP &amp; MySQL"> PHP &amp; MySQL</label>
+ <label><input type="checkbox" name="study[]" value="ASP.NET"> ASP.NET</label>
+ <label><input type="checkbox" name="study[]" value="CCNA"> CCNA</label>
+ <label><input type="checkbox" name="study[]" value="Security+"> Security+</label></td></tr>
+<tr><td>Note</td><td><textarea name="note" rows="6" cols="55"></textarea></td></tr>
+<tr><td></td><td><input type="submit" value="Gửi"> <input type="reset" value="Hủy"></td></tr>
+</table></fieldset></form></body></html>
